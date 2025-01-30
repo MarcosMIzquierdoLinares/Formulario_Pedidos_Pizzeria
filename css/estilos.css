@@ -21,6 +21,9 @@ fieldset{
 label{
     font-weight:bold;
 }
+input{
+    text-align: right;
+}
 #bebidas{
     width: 7.5vw;
 }
