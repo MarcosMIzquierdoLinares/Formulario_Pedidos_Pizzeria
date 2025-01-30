@@ -1,14 +1,12 @@
 body{
-    background-color: rgb(100, 175, 241);
+    background-color: #64aff1;
 }
-
 #contenedor1{
     display:flex;
     justify-content:space-around;
     font-family:verdana, sans-serif;
     margin: 20px 0px;            
 }
-
 fieldset{
     border:2px solid #444;
     background:#dddddd;
@@ -20,7 +18,6 @@ fieldset{
     width:50%;
     float:left;
 }
-
 label{
     font-weight:bold;
 }
@@ -30,11 +27,10 @@ label{
 .precios{
     text-align:right;
 }
-
 .bot{
     width: 40%;
     font-size:16px;
-    color:rgb(3, 28, 115);
+    color:#031c73;
     font-weight:bold;
     cursor: pointer;
 }
