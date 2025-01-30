@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(100, 175, 241);
+}
+
 #contenedor1{
     display:flex;
     justify-content:space-around;
@@ -7,12 +11,11 @@
 
 fieldset{
     border:2px solid #444;
-    background:#ddd;
-    box-shadow: 5px 5px 2px #ccc;
+    background:#dddddd;
+    box-shadow: 5px 5px 2px #4a4a4a;
     border-radius:5px;
     width:100%;
 }
-
 .formu p label{
     width:50%;
     float:left;
@@ -21,17 +24,20 @@ fieldset{
 label{
     font-weight:bold;
 }
-
+#bebidas{
+    width: 7.5vw;
+}
 .precios{
     text-align:right;
 }
 
 .bot{
+    width: 40%;
     font-size:16px;
-    color:maroon;
+    color:rgb(3, 28, 115);
     font-weight:bold;
+    cursor: pointer;
 }
-
 .ajusteCaja{
     width: 7.1vw;
 }
